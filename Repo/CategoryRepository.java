@@ -1,0 +1,9 @@
+package com.exam.Repo;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+
+import com.exam.model.quizModel.Category;
+
+public interface CategoryRepository extends JpaRepository<Category, Long>{
+
+}
